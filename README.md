@@ -1,11 +1,11 @@
 # User-Agent-Anomaly-Detection
 
-Note: API expects user agent strings in the same format as found in the benign as exploit folders!
+Note: API expects user agent strings in the same format as found in the benign and exploit folders!
 
 * API is flask application hosted on an aws ec2 instance at:
 http://18.233.186.222:5000/
 
-* Use a web browser to assess a new user agent string just add it to the ua argument as such:
+* Use a web browser to assess a new user agent string - just add it to the ua argument as such:
 http://18.233.186.222:5000/api/user_agent?ua= |user agent string|
   
 ** For example:
